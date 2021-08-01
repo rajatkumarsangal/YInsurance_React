@@ -10,7 +10,7 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-
+    
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/custom.css">
@@ -20,7 +20,57 @@
     <link rel="stylesheet" href="css/home-autoplay.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:400,900" />
     <link rel="stylesheet" href="css/Master_en-US.css" />
-
+    <link rel="stylesheet" href="css/common_master.css"/>
+    <!-- <script type="text/javascript" src="scrips/jquery-1.11.3.min.js"></script> -->
+    <script type="text/javascript" src="scripts/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="scrips/home-autoplay.js"></script>
+    <script type="text/javascript" src="scrips/bootstrap.min.js"></script>
+    <script type="text/javascript" src="scrips/custom.js"></script>
+    <script type="text/javascript" src="scrips/owl.carousel.js"></script>
+    <script type="text/javascript" src="scrips/respond.js"></script>
+    <script type="text/javascript">
+      $(document).scroll(function () {
+          var scrolliti = $(window).scrollTop();
+          if (scrolliti <= 300) {
+              $("#scrolling-header").addClass("scrolling-header-hide");
+              $("#scrolling-header").removeClass("scrolling-header-show");
+              $(".dropdown").removeClass("open");
+          }
+  
+          var scrollit = $(window).scrollTop();
+          if (scrollit >= 300) {
+              $("#scrolling-header").removeClass("scrolling-header-hide");
+              $("#scrolling-header").addClass("scrolling-header-show");
+          }
+          var scroll = $(window).scrollTop();
+          if (scroll >= 3500) {
+              $("#scrolling-header").addClass("scrolling-header-hide");
+              $("#scrolling-header").removeClass("scrolling-header-show");
+          }
+      });
+  
+  </script>
+    
+    <script type="text/javascript">
+      $(document).ready(function () {
+          $("#scrolling-header").addClass("scrolling-header-hide");
+          $(".dropdown, .btn-group").hover(function () {
+              var dropdownMenu = $(this).children(".dropdown-menu");
+              if (dropdownMenu.is(":visible")) {
+                  dropdownMenu.parent().toggleClass("open");
+              }
+          });
+      });
+  </script>
+  <script type="text/javascript">
+    $(window).load(function () {
+        $("#wrapper_all").show();
+        // or
+        $("#wrapper_all").fadeIn("fast");
+        // to be fancy with it
+    });
+  
+  </script>
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -39,7 +89,11 @@
   </head>
   <body oncopy="return false" onpaste="return false" oncut="return false">
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root">
+
+
+      
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -50,11 +104,10 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <script type="text/javascript" src="scrips/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="scrips/home-autoplay.js"></script>
-    <script type="text/javascript" src="scrips/bootstrap.min.js"></script>
-    <script type="text/javascript" src="scrips/custom.js"></script>
-    <script type="text/javascript" src="scrips/owl.carousel.js"></script>
-    <script type="text/javascript" src="scrips/respond.js"></script>
+   
+    
+    
+
   </body>
+ 
 </html>

@@ -462,9 +462,9 @@
     .head_pages_home .col-md-3:nth-child(14) {
         margin-top: 0px;
     }
-    .head_pages {
+    /* .head_pages {
         padding-right: 210px;
-    }
+    } */
     .head_pages_home {
         margin-top: 85px;
     }

@@ -840,14 +840,14 @@ only screen and (min-resolution: 144dpi) {
 }
 
 .email_icn {
-  background:url("../../MasterImages/HomeMaster/common/sprite.png") no-repeat scroll -253px -5px; float: left;  height: 70px;
+  background:url("../images/MasterImages/HomeMaster/Common/sprite.png") no-repeat scroll -253px -5px; float: left;  height: 70px;
   width: 60px; margin: 25px 0 0 51px;}
 
-.phone_icn{background:url("../../MasterImages/HomeMaster/common/sprite.png") no-repeat scroll -333px -6px; float: left;  height: 70px;
+.phone_icn{background:url("../images/MasterImages/HomeMaster/Common/sprite.png") no-repeat scroll -333px -6px; float: left;  height: 70px;
   width: 60px; margin: 25px 0 0 35px;}
 
 .arrow_icn {
-  background: url("../../MasterImages/HomeMaster/common/sprite.png") no-repeat scroll -408px -30px; display: inline-block;
+  background: url("../images/MasterImages/HomeMaster/Common/sprite.png") no-repeat scroll -408px -30px; display: inline-block;
   height: 31px;  margin: 0 0 0 5px;  position: relative;
   top: 10px;  width: 32px; cursor:pointer;}
   
