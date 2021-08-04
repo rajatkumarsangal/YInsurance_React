@@ -59,8 +59,8 @@ return(
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-5 no_padding_right hidden-xs hidden-sm hidden-md">
-                                                                <div className="dynamic_image_container" onClick="return RedirecttoPages(1);">
-                                                                    
+                                                                {/* <div className="dynamic_image_container" onClick="return RedirecttoPages(1);"> */}
+                                                                <div className="dynamic_image_container">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -104,7 +104,8 @@ return(
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-5 no_padding_right hidden-xs hidden-sm hidden-md">
-                                                                <div className="dynamic_image_container" onClick="return RedirecttoPages(2);">
+                                                                {/* <div className="dynamic_image_container" onClick="return RedirecttoPages(2);"> */}
+                                                                <div className="dynamic_image_container">
                                                                     &nbsp;</div>
                                                             </div>
                                                         </div>
@@ -155,7 +156,8 @@ return(
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-5 no_padding_right hidden-xs hidden-sm hidden-md">
-                                                                <div className="dynamic_image_container" onClick="return RedirecttoPages(3);">
+                                                                {/* <div className="dynamic_image_container" onClick="return RedirecttoPages(3);"> */}
+                                                                <div className="dynamic_image_container">
                                                                     &nbsp;</div>
                                                             </div>
                                                         </div>
@@ -178,7 +180,8 @@ return(
                                                                         <span id="ctl00_lblPetInsurancePlan">Pet Insurance Plan</span></span></a></li>
                                                             </div>
                                                             <div className="col-lg-5 no_padding_right hidden-xs hidden-sm hidden-md">
-                                                                <div className="dynamic_image_container" onClick="return RedirecttoPages(4);">
+                                                                {/* <div className="dynamic_image_container" onClick="return RedirecttoPages(4);"> */}
+                                                                <div className="dynamic_image_container">
                                                                     &nbsp;</div>
                                                             </div>
                                                         </div>
@@ -247,7 +250,8 @@ return(
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-5 no_padding_right hidden-xs hidden-sm hidden-md">
-                                                                <div className="dynamic_image_container" onClick="return RedirecttoPages(5);">
+                                                                {/* <div className="dynamic_image_container" onClick="return RedirecttoPages(5);"> */}
+                                                                <div className="dynamic_image_container">
                                                                     &nbsp;</div>
                                                             </div>
                                                         </div>

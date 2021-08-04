@@ -49,7 +49,7 @@ function InstantCallback(){
                                 
                             </div>
                             <input type="text" disabled="disabled" value="+91" className="width50px disabled"/>
-                            <input name="ctl00$txtMobileNumber" type="text" maxlength="12" id="ctl00_txtMobileNumber"/>
+                            <input name="ctl00$txtMobileNumber" type="text" maxLength="12" id="ctl00_txtMobileNumber"/>
                             <input type="hidden" name="ctl00$txtMobileNumberWatermark_ClientState" id="ctl00_txtMobileNumberWatermark_ClientState"/>
                             
                             <div className="clearfix">
@@ -57,12 +57,12 @@ function InstantCallback(){
                         </div>
                         {/* <!-- .callback_container --> */}
                         <a href="#" id="amobno" className="" data-toggle="modal" data-target="#thank_you_callback">
-                            <i className="arrow_icn hide"></i></a><a id="ctl00_A1" data-toggle="modal" onclick="return ValidateMobileNoFunction();">
+                            <i className="arrow_icn hide"></i></a><a id="ctl00_A1" data-toggle="modal">
                                 <i className="arrow_icn"></i></a>
                         
                         <div className="clearfix">
                         </div>
-                        <div id="divMobileNoErrBox" style={{display: 'none', 'vertical-align': 'top'}}>
+                        <div id="divMobileNoErrBox" style={{display: 'none', verticalAlign: 'top'}}>
                             <span id="ctl00_lblMobileNoErrMsg">Enter Mobile No !!</span>
                         </div>
                         <div className="row">

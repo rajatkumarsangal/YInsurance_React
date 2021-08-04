@@ -143,8 +143,8 @@ $(document).ready(function () {
         lazyLoad: true,
         autoplay: false,
         navigationText: [
-		  "<i class='left_customers fa fa-angle-left' aria-hidden='true'></i>",
-		  "<i class='right_customers fa fa-angle-right' aria-hidden='true'></i>"
+		  "<i className='left_customers fa fa-angle-left' aria-hidden='true'></i>",
+		  "<i className='right_customers fa fa-angle-right' aria-hidden='true'></i>"
 		  ]
     });
     $("#owl-demo-articles").owlCarousel({
@@ -157,17 +157,17 @@ $(document).ready(function () {
         lazyLoad: true,
         autoplay: false,
         navigationText: [
-		  "<i class='left_customers fa fa-angle-left' aria-hidden='true'></i>",
-		  "<i class='right_customers fa fa-angle-right' aria-hidden='true'></i>"
+		  "<i className='left_customers fa fa-angle-left' aria-hidden='true'></i>",
+		  "<i className='right_customers fa fa-angle-right' aria-hidden='true'></i>"
 		  ]
     });
 
     // APPENDING FORM-INLINE
     $(".add_family_son").click(function () {
-        $(this).parent().append("<div class='form-inline'><span class='pull-right'><a class='close_it' href='javascript:void(0);>'<i class='fa fa-close'></i></a></span><label>Son</label><select class='form-control modal_select' name=''><option value='0' selected>age</option><option value='option1'>Option1</option><option value='option2'>Option2</option><option value='option3'>Option3</option></select></div>");
+        $(this).parent().append("<div className='form-inline'><span className='pull-right'><a className='close_it' href='javascript:void(0);>'<i className='fa fa-close'></i></a></span><label>Son</label><select className='form-control modal_select' name=''><option value='0' selected>age</option><option value='option1'>Option1</option><option value='option2'>Option2</option><option value='option3'>Option3</option></select></div>");
     });
     $(".add_family_daughter").click(function () {
-        $(this).parent().append("<div class='form-inline close_it'><label>Daughter</label><select class='form-control modal_select' name=''><option value='0' selected>age</option><option value='option1'>Option1</option><option value='option2'>Option2</option><option value='option3'>Option3</option></select></div>");
+        $(this).parent().append("<div className='form-inline close_it'><label>Daughter</label><select className='form-control modal_select' name=''><option value='0' selected>age</option><option value='option1'>Option1</option><option value='option2'>Option2</option><option value='option3'>Option3</option></select></div>");
     });
 
     $(".close_it").click(function () {
@@ -472,8 +472,8 @@ $(document).ready(function () {
         itemsMobile: [360, 1],
         navigation: true,
         navigationText: [
-				"<i class='fa fa-angle-left prevc' aria-hidden='true'></i>",
-				"<i class='fa fa-angle-right nextc' aria-hidden='true'></i>"
+				"<i className='fa fa-angle-left prevc' aria-hidden='true'></i>",
+				"<i className='fa fa-angle-right nextc' aria-hidden='true'></i>"
 		  ]
     });
 
