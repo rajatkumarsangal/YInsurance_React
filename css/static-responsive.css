@@ -1,0 +1,404 @@
+@media (max-width: 991px) {	
+.static_head{margin: 50px 0 0 !important; text-indent:15px; /*text-align:left !important;*/}
+.colored_box{text-align:center; display:block;}
+.maintenance{background: url("../../MasterImages/Home/Common/Maintanence-Page.png") no-repeat center 10px !important;}
+header.padding_top_xs.no_padding_bottom {
+  height: 14px; min-height: auto;}
+.maintenance h1{padding-top: 190px !important;}
+.right_content{width:40vw;}
+.desk-text-right{text-align:left !important;}
+.static_head .y_topb{display:none;}
+.select_box select{-webkit-appearance: none; -ms-appearance: none; -oz-appearance: none; appearance:none;}
+.policy_container{margin-top:140px;}
+}
+
+/*----------*/
+
+@media (max-width: 991px) {
+    /*.top_section {top: 12px;right: 30px;padding-left: 30px;}*/
+    
+    .res_header {
+        font-size: 16px;
+        float: left;
+        padding-right: 30px;
+        margin-left: 5px;
+    }
+    .nav-icon {
+        right: 30px;
+        float: right;
+        top: 40px;
+        border: 1px solid black;
+        height: 45px;
+        position: relative;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: transform .5s ease-in-out;
+        -moz-transition: transform .5s ease-in-out;
+        -o-transition: transform .5s ease-in-out;
+        transition: transform .5s ease-in-out;
+        cursor: pointer;
+        width: 46px;
+    }
+    .lang-icon,
+    .pol-icon {
+        position: relative;
+        float: right;
+        top: 87px;
+        left: 16px;
+        cursor: pointer;
+        border: 1px solid black;
+        padding: 2px 5px 0px 5px;
+    }
+    .lang_area .center_area {
+        left: 0;
+        top: 138px !important;
+        width: 100%;
+        position: fixed;
+    }
+    .head_pages_home {
+        margin-top: 150px !important;
+    }
+    .d-clearfix {
+        clear: none;
+    }
+    header {
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+        background: white;
+        min-height: 140px;
+        padding: 25px 0;
+    }
+    .policies_drop_section {
+        top: 140px;
+    }
+    .navigation {
+        /*margin-left: -15px;*/
+		margin-left:0;
+        top: 113px;
+        width: 101vw;
+    }
+.articlepg .media-body{float:left; width:100%; margin-bottom:30px;}
+.life_panel{margin-top: 80px;}
+.content_wrapper{margin:10px;}
+
+}
+@media (min-width: 481px) and (max-width: 700px) {
+}
+@media (min-width: 701px) and (max-width: 990px) {
+.management_team .centre_image{margin-bottom:50px; min-height: 330px;}
+}
+@media (min-width: 480px) and (max-width: 768px) {
+    /*.top_section {top: 30px;}*/
+    
+    .nav-icon {
+        top: 20px;
+    }
+    .lang-icon,
+    .pol-icon {
+        top: 67px;
+    }
+/*    .navigation {
+        top: 123px;
+    }*/
+    .head_pages_home .col-xs-6:nth-child(15) {
+        margin: auto 25%;
+    }
+}
+@media (max-width: 479px) {
+    .head_pages_home .col-xs-6 {
+        width: 100%;
+    }
+    .slider {
+        width: 326px !important;
+    }
+.static_head{min-width:inherit !important;}
+}
+@media (min-width: 480px) and ( max-width: 1200px) {} @media (max-width: 1023px) {} @media (min-width: 1024px) {
+
+} 
+@media(min-width: 1300px) {
+    .management_team .centre_image {
+		min-width: 220px !important;
+        min-height: 220px !important;
+		width:auto !important;
+		height:auto !important;
+		
+    }
+    .knowledge .centre_image .section_para {
+        /*top: 90px;*/
+    }
+}
+@media( max-width: 1200px) {
+    .partners_img {
+        background: url(../../MasterImages/home/common/sprite.png) no-repeat 0 -494px;
+        width: 926px !important;
+        height: 363px !important;
+        display: inline-block;
+    }
+	.articlepg div.test_desc img{width:50vw !important; min-width:180px;}
+	
+
+.investment_block span, .cancer_block span, .health_block span, .dengueshield_block span, .retirement_block span, .critical_block span, .home_block span {
+height:100%; width: 100%; text-align:center;}
+
+.dengueshield_block span, .travel_block span, .child_block span, .pet_block span, .term_block span{height:100%; width: 100%; text-align:center;}
+.two_wheeler_block span, .motor_block span{  color: #fff;
+  display: block; height: 120px; text-align: center;
+  width: 120px;padding: 35px 7px;}
+.term_block{background:#ad6fae; border-radius:50%; width:120px; height:120px;}
+.investment_block{background:#9e9317; border-radius:50%; width:120px; height:120px;}
+.cancer_block{background:#9e2b34; border-radius:50%; width:120px; height:120px;}
+.two_wheeler_block{background:#cf4398; border-radius:50%; width:120px; height:120px;}
+.motor_block{background:#73c641; border-radius:50%; width:120px; height:120px;}
+.health_block{background:#fd6e0a; border-radius:50%; width:120px; height:120px;}
+.travel_block{background:#00a2ce; border-radius:50%; width:120px; height:120px;}
+.dengueshield_block{background:#a5574a; border-radius:50%; width:120px; height:120px;}
+.retirement_block{background:#64e3d6; border-radius:50%; width:120px; height:120px;}
+.child_block{background:#ea4e4e; border-radius:50%; width:120px; height:120px;}
+.pet_block{background:#b7c661; border-radius:50%; width:120px; height:120px;}
+.critical_block{background:#ffc50d; border-radius:50%; width:120px; height:120px;}
+.home_block{background:#ad6fae; border-radius:50%; width:120px; height:120px;}
+
+
+	
+}
+@media (min-width: 1001px) and (max-width: 1200px) {
+.colored_box{padding-left: 15% !important; padding-right: 15% !important;}
+.maintenance{ text-align:center; background: url("../../MasterImages/Home/Common/Maintanence-Page.png") no-repeat center top; min-height:633px; margin-top:-50px !important;}
+	.centre_image img {
+    width: 220px !important;
+    height: 220px !important;
+    }
+}
+@media (min-width: 1279px) and (max-width: 1281px) {
+.scroll_hide{display:block;}
+}
+
+
+@media (min-width: 1201px) and (max-width: 1280px) {
+    .res_header {
+        padding: 5px 0;
+    }
+    .section_para_fixed {
+        font-size: 14px;
+    }
+	.maintenance{ text-align:center; background: url("../../MasterImages/Home/Common/Maintanence-Page.png") no-repeat center top; min-height:620px; margin-top:-90px !important;}
+	.centre_image img{width: 220px !important; height:auto !important;}
+}
+@media (min-width: 1281px) and (max-width: 1366px) {
+.colored_box{padding-left: 15% !important; padding-right: 15% !important; text-align:center; display:block;}
+.maintenance{ text-align:center; background: url("../../MasterImages/Home/Common/Maintanence-Page.png") no-repeat center top; min-height:623px; margin-top:-95px !important;}
+	.centre_image img {
+    width: 220px !important;
+    height: 220px !important;
+    }
+}
+@media (min-width: 1367px) and (max-width: 1440px) {
+    @media screen and (-webkit-min-device-pixel-ratio: 0) {
+        .lang_area .bottom_area {
+            top: 493px !important;
+        }
+        .lang_area .top_area {
+            top: 105px !important;
+        }
+    }
+    header {
+        padding: 45px 26px;
+    }
+    .slider {
+        width: 1302px !important;
+    }
+		.centre_image img {
+    width: 220px !important;
+    height: 220px !important;
+    }
+}
+
+@media (min-width: 1439px) and (max-width: 1441px) {
+.scroll_hide{display:block;}
+}
+
+
+@media (min-width: 1441px) and (max-width: 1600px) {
+    header {
+        padding: 45px 26px;
+    }
+	.centre_image img {
+    width: 220px !important;
+    height: 220px !important;
+    }
+}
+@media (min-width: 1601px) and (max-width: 1680px) {
+    header {
+        padding: 45px 26px;
+    }
+	.centre_image img {
+    width: 220px !important;
+    height: 220px !important;
+    }
+	
+    @media screen and (-webkit-min-device-pixel-ratio: 0) {
+        .lang_area .bottom_area {
+            top: 493px !important;
+        }
+        .lang_area .top_area {
+            top: 106px !important;
+        }
+    }
+
+}
+@media (min-width: 1681px) {
+    header {
+        padding: 45px 26px;
+    }
+    .slider {
+        width: 1630px !important;
+    }
+		.centre_image img {
+    width: 220px !important;
+    height: 220px !important;
+    }
+}
+@media(min-width:596px) {}
+/* RESPONSIVE */
+
+@media(max-width: 767px) {
+    .meet_mng .centre_image {
+        margin: 0 auto 40px auto !important;
+    }
+    .knowledge .centre_image .section_para {
+        height: 19%;
+        text-align: center;
+        top: 42%;
+        left: 0;
+        vertical-align: middle;
+        width: 100% !important;
+        margin: 0;
+    }
+    .knowledge .centre_image .section_para.bigtxt {
+        top: 5px;
+        height: 36%;
+    }
+    .section_para_fixed {
+        font-size: 20px;
+    }
+    .d-pull-left {
+        float: none !important;
+    }
+    .d-pull-right {
+        float: none !important;
+    }
+    .centre_image {
+        word-break: break-word;max-width: 200px;
+    }
+	.maintenance{background:#ffffff !important;}
+}
+
+@media(min-width: 768px) {
+.dl-horizontal dt{width:50px;}
+.dl-horizontal dd {margin-left: 70px;}
+
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+}
+@media(min-width: 768px) and (max-width: 991px) {
+    /*.top_section {top: 32px;}*/
+    
+    .section .section_para_fixed {
+        font-size: 17px;
+    }
+    .centre_image {
+        height: 260px;
+        max-width: 260px;
+        margin: 0 auto 15px;
+    }
+    .knowledge .centre_image .section_para.bigtxt {
+        top: 0 !important;
+        margin: 35% 5%;
+        width: 90%;
+    }
+    .knowledge .centre_image .section_para {
+        top: 0 !important;
+        margin: 40% 5%;
+        width: 90%;
+    }
+}
+@media(min-width: 992px) and (max-width: 1025px) {
+    .section_para_fixed {
+        font-size: 14px !important;
+    }
+    .regular_text {
+        font-size: 14px !important;
+    }
+}
+@media(min-width: 992px) {
+    .insure_form input, .insure_form select {
+        /*width: 30%;*/
+    }
+    .insure_form {
+        margin-right: 25px;
+        /*margin-left: 334px;*/
+        
+        margin-left: 270px;
+        /*-Done by Lokesh- */        
+        border-left: 2px solid #73C641;
+        padding-left: 30px;
+        /*padding-top: 65px;*/
+        padding-top: 0px;
+        /*-Done by Lokesh- */
+        margin-bottom: 48px;
+        /*-Done by Lokesh- */
+    }
+    .static_callback .insure_form {margin-left: 15px;}
+
+    .head_pages .col-md-3 {
+        width: 20%;
+    }
+    .head_pages_home .col-md-3:nth-child(5n+1) {
+        clear: left;
+    }
+    .head_pages_home .col-md-3:nth-child(5n+2) {} .head_pages_home .col-md-3:nth-child(-2n+5) {
+        margin-top: -80px;
+    }
+    .head_pages_home .col-md-3:nth-child(even),
+    .col-md-3:nth-child(11),
+    .col-md-3:nth-child(13),
+    .col-md-3:nth-child(15) {
+        margin-top: -80px;
+    }
+    .head_pages_home .col-md-3:nth-child(2),
+    .head_pages_home .col-md-3:nth-child(4),
+    .head_pages_home .col-md-3:nth-child(12),
+    .head_pages_home .col-md-3:nth-child(14) {
+        margin-top: 0px;
+    }
+    .head_pages {
+        padding-right: 210px;
+    }
+    .head_pages_home {
+        margin-top: 85px;
+    }
+
+}
+@media(max-width: 349px) {
+    .top_section {
+        padding-left: 0 !important;
+        right: 22px !important;
+    }
+
+    /*.top_section {margin-top: 80px;}*/
+	.management_team .centre_image{margin-bottom:50px; min-height: 230px;}
+	.policy_container .col-sm-4.col-xs-6{width:100%;}
+}
+
+@media(max-width: 608px) and (min-width: 350px) {
+    #demo {
+        margin-left: 5%;
+        width: 90%;
+    }
+}
+@media(max-height: 535px) {} @media(max-height: 426px) {}
