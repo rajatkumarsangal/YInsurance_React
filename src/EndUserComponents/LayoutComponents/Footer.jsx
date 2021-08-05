@@ -276,35 +276,35 @@ return(
                         <div className="footer_image">
                             <div className="border f_face">
                             </div>
-                            <img alt="" className="footer_face" src="/images/footer_face.png" />
+                            <img alt="" className="footer_face" src="images/footer_face.png" />
                         </div>
                         {/* <!-- .footer_image --> */}
                     </a><a href="http://www.srstechsolution.com">
                         <div className="footer_image">
                             <div className="border f_twitt">
                             </div>
-                            <img alt="" className="footer_face" src="/images/footer_twitt.png" />
+                            <img alt="" className="footer_face" src="images/footer_twitt.png" />
                         </div>
                         {/* <!-- .footer_image --> */}
                     </a><a href="Global/Blog.html">
                         <div className="footer_image">
                             <div className="border f_blogg">
                             </div>
-                            <img alt="" className="footer_face" src="/images/footer_blogg.png" />
+                            <img alt="" className="footer_face" src="images/footer_blogg.png" />
                         </div>
                         {/* <!-- .footer_image --> */}
                     </a><a href="http://www.linkedin.com/company/1899506">
                         <div className="footer_image">
                             <div className="border f_link">
                             </div>
-                            <img alt="" className="footer_face" src="/images/footer_link_icn.png" />
+                            <img alt="" className="footer_face" src="images/footer_link_icn.png" />
                         </div>
                         {/* <!-- .footer_image --> */}
                     </a><a href="https://plus.google.com/u/0/b/117362241206591459905/+Insuringindia1/posts">
                         <div className="footer_image">
                             <div className="border f_google">
                             </div>
-                            <img alt="" className="footer_face" src="/images/footer_google_plus.png" />
+                            <img alt="" className="footer_face" src="images/footer_google_plus.png" />
                         </div>
                         {/* <!-- .footer_image --> */}
                     </a>

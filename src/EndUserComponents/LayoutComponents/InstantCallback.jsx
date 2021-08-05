@@ -41,7 +41,7 @@ function InstantCallback(){
                         <div className="callback_container">
                             <div className="btn-group">
                                 <button type="button" className="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <img alt="flag" src="/images/MasterImages/HomeMaster/common/flags/flag14.png"/>
+                                    <img alt="flag" src="images/MasterImages/HomeMaster/common/flags/flag14.png"/>
                                 </button>
                                 <i className="fa fa-angle-down padding_top_md margin_left_minus"></i>
                                 <div className="clearfix">

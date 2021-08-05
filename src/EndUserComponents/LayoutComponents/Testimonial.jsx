@@ -26,7 +26,7 @@ function Testimonial() {
                                     <div className="media test_desc">
                                         <div className="">
                                             <a href="" data-toggle="modal" data-target="#customer_1" tabIndex="-1">
-                                                <img className="media-object img-circle" src="/images/MasterImages/master/FeatureImages/Testimonial/testimonial-3.png" alt="Roshini Jain" />
+                                                <img className="media-object img-circle" src="images/MasterImages/master/FeatureImages/Testimonial/testimonial-3.png" alt="Roshini Jain" />
                                             </a>
                                         </div>
                                         <div className="media-body text-justify" data-toggle="modal" data-target="#customer_1">
@@ -44,7 +44,7 @@ function Testimonial() {
                                         <div className="media test_desc">
                                             <div className="">
                                                 <a href="" data-toggle="modal" data-target="#customer_1" tabIndex="-1">
-                                                    <img className="media-object img-circle" src="/images/MasterImages/master/FeatureImages/Testimonial/testimonial-4.png" alt="Rahul Sharma"/>
+                                                    <img className="media-object img-circle" src="images/MasterImages/master/FeatureImages/Testimonial/testimonial-4.png" alt="Rahul Sharma"/>
                                     </a>
                                 </div>
                                                 <div className="media-body  text-justify" data-toggle="modal" data-target="#customer_1">
@@ -62,7 +62,7 @@ function Testimonial() {
                                             <div className="media test_desc">
                                                 <div className="">
                                                     <a href="" data-toggle="modal" data-target="#customer_1" tabIndex="-1">
-                                                        <img className="media-object img-circle" src="/images/MasterImages/master/FeatureImages/Testimonial/testimonial-5.png" alt="Arvind Bhattacharya"/>
+                                                        <img className="media-object img-circle" src="images/MasterImages/master/FeatureImages/Testimonial/testimonial-5.png" alt="Arvind Bhattacharya"/>
                                     </a>
                                 </div>
                                                     <div className="media-body  text-justify" data-toggle="modal" data-target="#customer_1">
@@ -78,7 +78,7 @@ function Testimonial() {
                                                 <div className="media test_desc">
                                                     <div className="">
                                                         <a href="" data-toggle="modal" data-target="#customer_1" tabIndex="-1">
-                                                            <img className="media-object img-circle" src="/images/MasterImages/master/FeatureImages/Testimonial/testimonial-1.png" alt="Kanika Mehra"/>
+                                                            <img className="media-object img-circle" src="images/MasterImages/master/FeatureImages/Testimonial/testimonial-1.png" alt="Kanika Mehra"/>
                                     </a>
                                 </div>
                                                         <div className="media-body  text-justify" data-toggle="modal" data-target="#customer_1">
@@ -96,7 +96,7 @@ function Testimonial() {
                                                     <div className="media test_desc">
                                                         <div className="">
                                                             <a href="" data-toggle="modal" data-target="#customer_1" tabIndex="0">
-                                                                <img className="media-object img-circle" src="/images/MasterImages/master/FeatureImages/Testimonial/testimonial-2.png" alt="Aditi Raikar"/>
+                                                                <img className="media-object img-circle" src="images/MasterImages/master/FeatureImages/Testimonial/testimonial-2.png" alt="Aditi Raikar"/>
                                     </a>
                                 </div>
                                                             <div className="media-body text-justify" data-toggle="modal" data-target="#customer_1">
@@ -113,7 +113,7 @@ function Testimonial() {
                                                         <div className="media test_desc">
                                                             <div className="">
                                                                 <a href="" data-toggle="modal" data-target="#customer_1" tabIndex="0">
-                                                                    <img className="media-object img-circle" src="/images/MasterImages/master/FeatureImages/Testimonial/testimonial-3.png" alt="Roshini Jain"/>
+                                                                    <img className="media-object img-circle" src="images/MasterImages/master/FeatureImages/Testimonial/testimonial-3.png" alt="Roshini Jain"/>
                                     </a>
                                 </div>
                                                                 <div className="media-body text-justify" data-toggle="modal" data-target="#customer_1">
@@ -131,7 +131,7 @@ function Testimonial() {
                                                             <div className="media test_desc">
                                                                 <div className="">
                                                                     <a href="" data-toggle="modal" data-target="#customer_1" tabIndex="0">
-                                                                        <img className="media-object img-circle" src="/images/MasterImages/master/FeatureImages/Testimonial/testimonial-4.png" alt="Rahul Sharma"/>
+                                                                        <img className="media-object img-circle" src="images/MasterImages/master/FeatureImages/Testimonial/testimonial-4.png" alt="Rahul Sharma"/>
                                     </a>
                                 </div>
                                                                     <div className="media-body  text-justify" data-toggle="modal" data-target="#customer_1">
@@ -147,7 +147,7 @@ function Testimonial() {
                                                                 <div className="media test_desc">
                                                                     <div className="">
                                                                         <a href="" data-toggle="modal" data-target="#customer_1" tabIndex="0">
-                                                                            <img className="media-object img-circle" src="/images/MasterImages/master/FeatureImages/Testimonial/testimonial-5.png" alt="Arvind Bhattacharya"/>
+                                                                            <img className="media-object img-circle" src="images/MasterImages/master/FeatureImages/Testimonial/testimonial-5.png" alt="Arvind Bhattacharya"/>
                                     </a>
                                 </div>
                                                                         <div className="media-body  text-justify" data-toggle="modal" data-target="#customer_1">
@@ -162,7 +162,7 @@ function Testimonial() {
                                                                     <div className="media test_desc">
                                                                         <div className="">
                                                                             <a href="" data-toggle="modal" data-target="#customer_1" tabIndex="-1">
-                                                                                <img className="media-object img-circle" src="/images/MasterImages/master/FeatureImages/Testimonial/testimonial-1.png" alt="Kanika Mehra"/>
+                                                                                <img className="media-object img-circle" src="images/MasterImages/master/FeatureImages/Testimonial/testimonial-1.png" alt="Kanika Mehra"/>
                                     </a>
                                 </div>
                                                                             <div className="media-body  text-justify" data-toggle="modal" data-target="#customer_1">
@@ -179,7 +179,7 @@ function Testimonial() {
                                                                         <div className="media test_desc">
                                                                             <div className="">
                                                                                 <a href="" data-toggle="modal" data-target="#customer_1" tabIndex="-1">
-                                                                                    <img className="media-object img-circle" src="/images/MasterImages/master/FeatureImages/Testimonial/testimonial-2.png" alt="Aditi Raikar" />
+                                                                                    <img className="media-object img-circle" src="images/MasterImages/master/FeatureImages/Testimonial/testimonial-2.png" alt="Aditi Raikar" />
                                     </a>
                                 </div>
                                                                                 <div className="media-body text-justify" data-toggle="modal" data-target="#customer_1">
@@ -195,7 +195,7 @@ function Testimonial() {
                                                                             <div className="media test_desc">
                                                                                 <div className="">
                                                                                     <a href="" data-toggle="modal" data-target="#customer_1" tabIndex="-1">
-                                                                                        <img className="media-object img-circle" src="/images/MasterImages/master/FeatureImages/Testimonial/testimonial-3.png" alt="Roshini Jain"/>
+                                                                                        <img className="media-object img-circle" src="images/MasterImages/master/FeatureImages/Testimonial/testimonial-3.png" alt="Roshini Jain"/>
                                     </a>
                                 </div>
                                                                                     <div className="media-body text-justify" data-toggle="modal" data-target="#customer_1">
@@ -212,7 +212,7 @@ function Testimonial() {
                                                                                 <div className="media test_desc">
                                                                                     <div className="">
                                                                                         <a href="" data-toggle="modal" data-target="#customer_1" tabIndex="-1">
-                                                                                            <img className="media-object img-circle" src="/images/MasterImages/master/FeatureImages/Testimonial/testimonial-4.png" alt="Rahul Sharma"/>
+                                                                                            <img className="media-object img-circle" src="images/MasterImages/master/FeatureImages/Testimonial/testimonial-4.png" alt="Rahul Sharma"/>
                                     </a>
                                 </div>
                                                                                         <div className="media-body  text-justify" data-toggle="modal" data-target="#customer_1">
@@ -228,7 +228,7 @@ function Testimonial() {
                                                                                     <div className="media test_desc">
                                                                                         <div className="">
                                                                                             <a href="" data-toggle="modal" data-target="#customer_1" tabIndex="-1">
-                                                                                                <img className="media-object img-circle" src="/images/MasterImages/master/FeatureImages/Testimonial/testimonial-5.png" alt="Arvind Bhattacharya"/>
+                                                                                                <img className="media-object img-circle" src="images/MasterImages/master/FeatureImages/Testimonial/testimonial-5.png" alt="Arvind Bhattacharya"/>
                                     </a>
                                 </div>
                                                                                             <div className="media-body  text-justify" data-toggle="modal" data-target="#customer_1">
