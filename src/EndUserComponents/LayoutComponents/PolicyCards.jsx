@@ -51,7 +51,7 @@ function PolicyCards() {
                                             <span id="ctl00_lblHealthInurance">Insurance</span>
                                         </span>
                                     </p>
-                                    <img className="img-responsive" alt="Health Insurance" src="/images/MasterImages/HomeMaster/general-insureance/health.jpg" />
+                                    <img className="img-responsive" alt="Health Insurance" src="images/MasterImages/HomeMaster/general-insureance/health.jpg" />
                                 </a>
                             </div>
                             {/* <!-- .section --> */}
@@ -68,7 +68,7 @@ function PolicyCards() {
                                             <span id="ctl00_lblretireInsurance">Plan</span>
                                         </span>
                                     </p>
-                                    <img className="img-responsive" alt=" Retirement" src="/images/MasterImages/HomeMaster/life-insurance/retirement.jpg" />
+                                    <img className="img-responsive" alt=" Retirement" src="images/MasterImages/HomeMaster/life-insurance/retirement.jpg" />
                                 </a>
                             </div>
                             {/* <!-- .section --> */}
@@ -84,7 +84,7 @@ function PolicyCards() {
                                         <span className="regular_text">
                                             <span id="ctl00_lblPetInsurence">Insurance</span></span>
                                     </p>
-                                    <img className="img-responsive" alt="Pet Insurance" src="/images/MasterImages/HomeMaster/general-insureance/pet.jpg" />
+                                    <img className="img-responsive" alt="Pet Insurance" src="images/MasterImages/HomeMaster/general-insureance/pet.jpg" />
                                 </a>
                             </div>
                             {/* <!-- .section --> */}
@@ -101,7 +101,7 @@ function PolicyCards() {
                                             <span id="ctl00_Label6">Plan</span>
                                         </span>
                                     </p>
-                                    <img className="img-responsive" alt="Investment Insurance " src="/images/MasterImages/HomeMaster/life-insurance/investment.jpg" />
+                                    <img className="img-responsive" alt="Investment Insurance " src="images/MasterImages/HomeMaster/life-insurance/investment.jpg" />
                                 </a>
                             </div>
                             {/* <!-- .section --> */}
@@ -119,7 +119,7 @@ function PolicyCards() {
                                             <span id="ctl00_lblWheeler">Wheeler</span>
                                         </span>
                                     </p>
-                                    <img className="img-responsive" alt="Four Wheeler" src="/images/MasterImages/HomeMaster/general-insureance/four-wheeler.jpg" />
+                                    <img className="img-responsive" alt="Four Wheeler" src="images/MasterImages/HomeMaster/general-insureance/four-wheeler.jpg" />
                                 </a>
                             </div>
                             {/* <!-- .section --> */}
@@ -135,7 +135,7 @@ function PolicyCards() {
                                             <span id="ctl00_lblTravelInsurance">Insurance</span>
                                         </span>
                                     </p>
-                                    <img className="img-responsive" alt="Travel Insurance" src="/images/MasterImages/HomeMaster/general-insureance/travel.jpg" />
+                                    <img className="img-responsive" alt="Travel Insurance" src="images/MasterImages/HomeMaster/general-insureance/travel.jpg" />
                                 </a>
                             </div>
                             {/* <!-- .section --> */}
@@ -153,7 +153,7 @@ function PolicyCards() {
                                             <span id="ctl00_lblChildinvestment">Plan</span>
                                         </span>
                                     </p>
-                                    <img className="img-responsive" alt="Child Plan" src="/images/MasterImages/HomeMaster/life-insurance/child.jpg" />
+                                    <img className="img-responsive" alt="Child Plan" src="images/MasterImages/HomeMaster/life-insurance/child.jpg" />
                                 </a>
                             </div>
                             {/* <!-- .section --> */}
@@ -170,7 +170,7 @@ function PolicyCards() {
                                             <span id="ctl00_lblIllness">Illness</span>
                                         </span>
                                     </p>
-                                    <img className="img-responsive" alt="Critical Illness" src="/images/MasterImages/HomeMaster/general-insureance/critical.jpg" />
+                                    <img className="img-responsive" alt="Critical Illness" src="images/MasterImages/HomeMaster/general-insureance/critical.jpg" />
                                 </a>
                             </div>
                             {/* <!-- .section --> */}
@@ -186,7 +186,7 @@ function PolicyCards() {
                                         <span className="regular_text">
                                             <span id="ctl00_lblCover">Cover</span></span>
                                     </p>
-                                    <img className="img-responsive" alt="Cancer Insurance" src="/images/MasterImages/HomeMaster/general-insureance/cancer.jpg" />
+                                    <img className="img-responsive" alt="Cancer Insurance" src="images/MasterImages/HomeMaster/general-insureance/cancer.jpg" />
                                 </a>
                             </div>
                             {/* <!-- .section --> */}
@@ -204,7 +204,7 @@ function PolicyCards() {
                                         <span className="regular_text">
                                             <span id="ctl00_lblDengueShield">Shield</span></span>
                                     </p>
-                                    <img className="img-responsive" alt="Dengue Shield" src="/images/MasterImages/HomeMaster/general-insureance/dengue.jpg" />
+                                    <img className="img-responsive" alt="Dengue Shield" src="images/MasterImages/HomeMaster/general-insureance/dengue.jpg" />
                                 </a>
                             </div>
                             {/* <!-- .section --> */}
@@ -224,7 +224,7 @@ function PolicyCards() {
                                             <span id="ctl00_lblHouseInsurance">Insurance</span>
                                         </span>
                                     </p>
-                                    <img className="img-responsive" alt="House Insurance" src="/images/MasterImages/HomeMaster/life-insurance/house.jpg" />
+                                    <img className="img-responsive" alt="House Insurance" src="images/MasterImages/HomeMaster/life-insurance/house.jpg" />
                                 </a>
                             </div>
                             {/* <!-- .section --> */}
