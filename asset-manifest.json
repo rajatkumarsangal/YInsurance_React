@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/YInsurance_React/static/css/main.a617e044.chunk.css",
-    "main.js": "/YInsurance_React/static/js/main.185757a3.chunk.js",
-    "main.js.map": "/YInsurance_React/static/js/main.185757a3.chunk.js.map",
+    "main.js": "/YInsurance_React/static/js/main.4aaa073c.chunk.js",
+    "main.js.map": "/YInsurance_React/static/js/main.4aaa073c.chunk.js.map",
     "runtime-main.js": "/YInsurance_React/static/js/runtime-main.aca146e3.js",
     "runtime-main.js.map": "/YInsurance_React/static/js/runtime-main.aca146e3.js.map",
     "static/js/2.31114853.chunk.js": "/YInsurance_React/static/js/2.31114853.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.aca146e3.js",
     "static/js/2.31114853.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.185757a3.chunk.js"
+    "static/js/main.4aaa073c.chunk.js"
   ]
 }
