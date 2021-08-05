@@ -17,7 +17,7 @@ function PolicyCards() {
                                             <span id="ctl00_lblTermInsuranceTerm">Plan</span>
                                         </span>
                                     </p>
-                                    <img className="img-responsive" alt="Term Insurance " src="/images/MasterImages/HomeMaster/life-insurance/term.jpg" />
+                                    <img className="img-responsive" alt="Term Insurance " src="images/MasterImages/HomeMaster/life-insurance/term.jpg" />
                                 </a>
                             </div>
                             {/* <!-- .section --> */}
@@ -35,7 +35,7 @@ function PolicyCards() {
                                             <span id="ctl00_lblTWWheeler">Wheeler</span>
                                         </span>
                                     </p>
-                                    <img className="img-responsive" alt="Two Wheeler" src="/images/MasterImages/HomeMaster/general-insureance/two-wheeler.jpg" />
+                                    <img className="img-responsive" alt="Two Wheeler" src="images/MasterImages/HomeMaster/general-insureance/two-wheeler.jpg" />
                                 </a>
                             </div>
                             {/* <!-- .section --> */}
