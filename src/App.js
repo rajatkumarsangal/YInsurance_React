@@ -13,6 +13,8 @@ import AboutUs from './EndUserComponents/AboutUs';
 import ContactUs from './EndUserComponents/ContactUs';
 import Products from './EndUserComponents/Products';
 import Login from './Login/Login';
+import Registration from './Registration/Registration';
+
 
 function App() {
   return (
@@ -30,7 +32,8 @@ function App() {
         <Route exact path='/contact-us' component={ContactUs}/>
         <Route exact path='/products' component={Products}/>
         <Route exact path='/login' component={Login}/>
-        <Route component={Error}/>
+        <Route exact path='/registration' component={Registration}/>
+          <Route component={Error}/>
         </Switch>
         {/* <BodyContent /> */}
         <Footer></Footer>
