@@ -4451,3 +4451,9 @@ footer a:hover {
     font-size: 10px;
     text-transform: uppercase;
 }
+
+.navigation > ul>li>a.active{
+    color: #00B2A8;
+    height: 2px;
+    transition: width .3s linear;
+}

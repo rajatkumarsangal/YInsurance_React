@@ -4,30 +4,31 @@ jQuery(document).ready(function ($) {
     });
 });
 $(window).scroll(function () {
-    if ($(this).scrollTop() >= $('.why_us').position().top && $('.why_us, .playground').is(':visible')) {
-        if ($(window).width() >= 992) {
-            // $('.pol').slideDown("fast");
+    var whyus = $('.why_us');
+    if (whyus.length>0) {
+        if ($(this).scrollTop() >= $('.why_us').position().top && $('.why_us, .playground').is(':visible')) {
+            if ($(window).width() >= 992) {
+                // $('.pol').slideDown("fast");
+            }
+            else {
+                // $('.pol-icon').slideDown("fast");
+                // $('.pol-icon').find("p i").removeClass('fa-minus');
+                // $('.pol-icon').find("p i").addClass('fa-plus');
+            }
         }
-		
-		else {
-			
-            // $('.pol-icon').slideDown("fast");
-            // $('.pol-icon').find("p i").removeClass('fa-minus');
-            // $('.pol-icon').find("p i").addClass('fa-plus');
-
-}
-    } else {
-        if ($(window).width() >= 992) {
-            // $('.policies_drop_section').slideUp("fast");			
-        } else {
-            // $('.pol-icon').slideUp("fast");
-            // $('.policies_drop_section').slideUp("fast");
+        else {
+            if ($(window).width() >= 992) {
+                // $('.policies_drop_section').slideUp("fast");			
+            } else {
+                // $('.pol-icon').slideUp("fast");
+                // $('.policies_drop_section').slideUp("fast");
+            }
         }
     }
 
     if ($(this).scrollTop() >= $('footer').position().top - 250 && $(window).width() <= 1599) {
         $('.why_us,.playground').slideDown("slow");
-		
+
     }
     if ($(this).scrollTop() >= $('footer').position().top - 350 && $(window).width() >= 1600) {
         $('.why_us,.playground').slideDown("slow");
@@ -36,12 +37,12 @@ $(window).scroll(function () {
     if ($('.why_us,.playground').is(':visible')) {
         if ($(this).scrollTop() >= $('footer').position().top - 550 && $(window).width() <= 1599) {
             $('.knowledge').slideDown("slow");
-			
+
         }
         if ($(this).scrollTop() >= $('footer').position().top - 350 && $(window).width() >= 1600) {
             $('.knowledge').slideDown("slow");
         }
-    }	
+    }
     if ($('.knowledge').is(':visible')) {
         if ($(this).scrollTop() >= $('footer').position().top - 250 && $(window).width() <= 1599) {
             $('.instant_call_back').slideDown("slow");
@@ -143,9 +144,9 @@ $(document).ready(function () {
         lazyLoad: true,
         autoplay: false,
         navigationText: [
-		  "<i className='left_customers fa fa-angle-left' aria-hidden='true'></i>",
-		  "<i className='right_customers fa fa-angle-right' aria-hidden='true'></i>"
-		  ]
+            "<i className='left_customers fa fa-angle-left' aria-hidden='true'></i>",
+            "<i className='right_customers fa fa-angle-right' aria-hidden='true'></i>"
+        ]
     });
     $("#owl-demo-articles").owlCarousel({
         items: 1, //2 items above 1000px browser width
@@ -157,9 +158,9 @@ $(document).ready(function () {
         lazyLoad: true,
         autoplay: false,
         navigationText: [
-		  "<i className='left_customers fa fa-angle-left' aria-hidden='true'></i>",
-		  "<i className='right_customers fa fa-angle-right' aria-hidden='true'></i>"
-		  ]
+            "<i className='left_customers fa fa-angle-left' aria-hidden='true'></i>",
+            "<i className='right_customers fa fa-angle-right' aria-hidden='true'></i>"
+        ]
     });
 
     // APPENDING FORM-INLINE
@@ -194,26 +195,26 @@ $(document).ready(function () {
     });
     $('.six_block').hover(function () {
         $(this).find('.left_top').toggleClass('anime_left_top');
-    });    
-	$('.seven_block').hover(function () {
+    });
+    $('.seven_block').hover(function () {
         $(this).find('.left_top').toggleClass('anime_left_top');
     });
-	$('.eight_block').hover(function () {
+    $('.eight_block').hover(function () {
         $(this).find('.left_top').toggleClass('anime_left_top');
     });
-	$('.nine_block').hover(function () {
+    $('.nine_block').hover(function () {
         $(this).find('.right_bottom').toggleClass('anime_right_bottom');
     });
-	$('.ten_block').hover(function () {
+    $('.ten_block').hover(function () {
         $(this).find('.right_bottom').toggleClass('anime_right_bottom');
     });
-	$('.eleven_block').hover(function () {
+    $('.eleven_block').hover(function () {
         $(this).find('.right_bottom').toggleClass('anime_right_bottom');
     });
-	$('.twelve_block').hover(function () {
+    $('.twelve_block').hover(function () {
         $(this).find('.bottom_left').toggleClass('anime_bottom_left');
     });
-	$('.thirteen_block').hover(function () {
+    $('.thirteen_block').hover(function () {
         $(this).find('.bottom_right').toggleClass('anime_bottom_right');
     });
 
@@ -472,9 +473,9 @@ $(document).ready(function () {
         itemsMobile: [360, 1],
         navigation: true,
         navigationText: [
-				"<i className='fa fa-angle-left prevc' aria-hidden='true'></i>",
-				"<i className='fa fa-angle-right nextc' aria-hidden='true'></i>"
-		  ]
+            "<i className='fa fa-angle-left prevc' aria-hidden='true'></i>",
+            "<i className='fa fa-angle-right nextc' aria-hidden='true'></i>"
+        ]
     });
 
     //  Addition cover toggle check boxes
@@ -509,168 +510,168 @@ $(document).ready(function () {
     });
 
     // Triggering Plus and Minus FAQ
-	
-   $('.box1 .icon_toggle').click(function(){   
-   if($(this).attr("aria-expanded")=="true"){
+
+    $('.box1 .icon_toggle').click(function () {
+        if ($(this).attr("aria-expanded") == "true") {
             $("icon-1_plus").hide();
             $("icon-1_plus").show();
         }
-        if($(this).attr("aria-expanded")=="false"){
+        if ($(this).attr("aria-expanded") == "false") {
             $("icon-1_plus").hide();
         }
 
     });
 
-    $('.box1 .icon_toggle').click(function(){
-        if($(this).attr("aria-expanded")=="false"){
+    $('.box1 .icon_toggle').click(function () {
+        if ($(this).attr("aria-expanded") == "false") {
             $(".icon-1_minus").hide();
             $(".icon-1_minus").show();
         }
-        if($(this).attr("aria-expanded")=="true"){
+        if ($(this).attr("aria-expanded") == "true") {
             $(".icon-1_minus").hide();
         }
 
-    });	
-   $('.box2 .icon_toggle').click(function(){   
-   if($(this).attr("aria-expanded")=="true"){
+    });
+    $('.box2 .icon_toggle').click(function () {
+        if ($(this).attr("aria-expanded") == "true") {
             $("icon-2_plus").hide();
             $("icon-2_plus").show();
         }
-        if($(this).attr("aria-expanded")=="false"){
+        if ($(this).attr("aria-expanded") == "false") {
             $("icon-2_plus").hide();
         }
 
     });
 
-    $('.box2 .icon_toggle').click(function(){
-        if($(this).attr("aria-expanded")=="false"){
+    $('.box2 .icon_toggle').click(function () {
+        if ($(this).attr("aria-expanded") == "false") {
             $(".icon-2_minus").hide();
             $(".icon-2_minus").show();
         }
-        if($(this).attr("aria-expanded")=="true"){
+        if ($(this).attr("aria-expanded") == "true") {
             $(".icon-2_minus").hide();
         }
 
-    });	  $('.box3 .icon_toggle').click(function(){   
-   if($(this).attr("aria-expanded")=="true"){
+    }); $('.box3 .icon_toggle').click(function () {
+        if ($(this).attr("aria-expanded") == "true") {
             $("icon-3_plus").hide();
             $("icon-3_plus").show();
         }
-        if($(this).attr("aria-expanded")=="false"){
+        if ($(this).attr("aria-expanded") == "false") {
             $("icon-3_plus").hide();
         }
 
     });
 
-    $('.box3 .icon_toggle').click(function(){
-        if($(this).attr("aria-expanded")=="false"){
+    $('.box3 .icon_toggle').click(function () {
+        if ($(this).attr("aria-expanded") == "false") {
             $(".icon-3_minus").hide();
             $(".icon-3_minus").show();
         }
-        if($(this).attr("aria-expanded")=="true"){
+        if ($(this).attr("aria-expanded") == "true") {
             $(".icon-3_minus").hide();
         }
 
-    });	  $('.box4 .icon_toggle').click(function(){   
-   if($(this).attr("aria-expanded")=="true"){
+    }); $('.box4 .icon_toggle').click(function () {
+        if ($(this).attr("aria-expanded") == "true") {
             $("icon-4_plus").hide();
             $("icon-4_plus").show();
         }
-        if($(this).attr("aria-expanded")=="false"){
+        if ($(this).attr("aria-expanded") == "false") {
             $("icon-4_plus").hide();
         }
 
     });
 
-    $('.box4 .icon_toggle').click(function(){
-        if($(this).attr("aria-expanded")=="false"){
+    $('.box4 .icon_toggle').click(function () {
+        if ($(this).attr("aria-expanded") == "false") {
             $(".icon-4_minus").hide();
             $(".icon-4_minus").show();
         }
-        if($(this).attr("aria-expanded")=="true"){
+        if ($(this).attr("aria-expanded") == "true") {
             $(".icon-4_minus").hide();
         }
 
-    });	  $('.box5 .icon_toggle').click(function(){   
-   if($(this).attr("aria-expanded")=="true"){
+    }); $('.box5 .icon_toggle').click(function () {
+        if ($(this).attr("aria-expanded") == "true") {
             $("icon-5_plus").hide();
             $("icon-5_plus").show();
         }
-        if($(this).attr("aria-expanded")=="false"){
+        if ($(this).attr("aria-expanded") == "false") {
             $("icon-5_plus").hide();
         }
 
     });
 
-    $('.box5 .icon_toggle').click(function(){
-        if($(this).attr("aria-expanded")=="false"){
+    $('.box5 .icon_toggle').click(function () {
+        if ($(this).attr("aria-expanded") == "false") {
             $(".icon-5_minus").hide();
             $(".icon-5_minus").show();
         }
-        if($(this).attr("aria-expanded")=="true"){
+        if ($(this).attr("aria-expanded") == "true") {
             $(".icon-5_minus").hide();
         }
 
-    });	  $('.box6 .icon_toggle').click(function(){   
-   if($(this).attr("aria-expanded")=="true"){
+    }); $('.box6 .icon_toggle').click(function () {
+        if ($(this).attr("aria-expanded") == "true") {
             $("icon-6_plus").hide();
             $("icon-6_plus").show();
         }
-        if($(this).attr("aria-expanded")=="false"){
+        if ($(this).attr("aria-expanded") == "false") {
             $("icon-6_plus").hide();
         }
 
     });
 
-    $('.box6 .icon_toggle').click(function(){
-        if($(this).attr("aria-expanded")=="false"){
+    $('.box6 .icon_toggle').click(function () {
+        if ($(this).attr("aria-expanded") == "false") {
             $(".icon-6_minus").hide();
             $(".icon-6_minus").show();
         }
-        if($(this).attr("aria-expanded")=="true"){
+        if ($(this).attr("aria-expanded") == "true") {
             $(".icon-6_minus").hide();
         }
 
-    });	  $('.box7 .icon_toggle').click(function(){   
-   if($(this).attr("aria-expanded")=="true"){
+    }); $('.box7 .icon_toggle').click(function () {
+        if ($(this).attr("aria-expanded") == "true") {
             $("icon-7_plus").hide();
             $("icon-7_plus").show();
         }
-        if($(this).attr("aria-expanded")=="false"){
+        if ($(this).attr("aria-expanded") == "false") {
             $("icon-7_plus").hide();
         }
 
     });
 
-    $('.box7 .icon_toggle').click(function(){
-        if($(this).attr("aria-expanded")=="false"){
+    $('.box7 .icon_toggle').click(function () {
+        if ($(this).attr("aria-expanded") == "false") {
             $(".icon-7_minus").hide();
             $(".icon-7_minus").show();
         }
-        if($(this).attr("aria-expanded")=="true"){
+        if ($(this).attr("aria-expanded") == "true") {
             $(".icon-7_minus").hide();
         }
 
-    });	  $('.box8 .icon_toggle').click(function(){   
-   if($(this).attr("aria-expanded")=="true"){
+    }); $('.box8 .icon_toggle').click(function () {
+        if ($(this).attr("aria-expanded") == "true") {
             $("icon-8_plus").hide();
             $("icon-8_plus").show();
         }
-        if($(this).attr("aria-expanded")=="false"){
+        if ($(this).attr("aria-expanded") == "false") {
             $("icon-8_plus").hide();
         }
 
     });
 
-    $('.box8 .icon_toggle').click(function(){
-        if($(this).attr("aria-expanded")=="false"){
+    $('.box8 .icon_toggle').click(function () {
+        if ($(this).attr("aria-expanded") == "false") {
             $(".icon-8_minus").hide();
             $(".icon-8_minus").show();
         }
-        if($(this).attr("aria-expanded")=="true"){
+        if ($(this).attr("aria-expanded") == "true") {
             $(".icon-8_minus").hide();
         }
 
-    });	  
-	
-	});	
+    });
+
+});

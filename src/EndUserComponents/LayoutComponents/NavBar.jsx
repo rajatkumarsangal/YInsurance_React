@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
 
 function NavBar(){
     return(
@@ -7,9 +8,9 @@ function NavBar(){
     <div className="container-fluid">
         <div className="row">
             <div className="col-md-3 no_padding">
-                <a href="http://www.srstechsolution.com" className="">
+                <NavLink to="/">
                     {/* <img className="logo img-responsive" src="/UIMaster/MasterImages/master/logo.png" alt="Logo Image"/>*/}
-                    <h1>Yuva Insurance</h1></a> 
+                    <h1>Yuva Insurance</h1></NavLink> 
             </div>
             {/* <!-- .col-md-3 --> */}
             <div className="col-md-9 no_padding">
@@ -17,20 +18,20 @@ function NavBar(){
                     <li><a href="">
                         <span id="ctl00_Header1_lblManageMyPolicy">Manage My Policies</span></a></li>
                     
-                    <li><a href="" data-toggle="modal" data-target="#myModal">
-                        <span id="ctl00_Header1_lblLoginIn">Log In</span></a></li>
+                    <li><NavLink activeClassName="active" to="/login">
+                        <span id="ctl00_Header1_lblLoginIn">Log In</span></NavLink></li>
                 </ul>
                 {/* <!-- .top_section --> */}
                 <nav className="navigation">
                     <ul>
-                        <li><a href="">
-                            <span id="ctl00_Header1_lblmasterHome">Home</span></a></li>
-                        <li><a href="">
-                            <span id="ctl00_Header1_lblAboutUs">About Us</span></a></li>
-                        <li><a href="">
-                            <span id="ctl00_Header1_lblProduct">Products</span></a></li>
-                        <li><a href="">
-                            <span id="ctl00_Header1_lblContactUs">Contact Us</span></a></li>
+                        <li><NavLink activeClassName="active" to="/">
+                            <span id="ctl00_Header1_lblmasterHome">Home</span></NavLink></li>
+                        <li><NavLink activeClassName="active" to="/about-us">
+                            <span id="ctl00_Header1_lblAboutUs">About Us</span></NavLink></li>
+                        <li><NavLink activeClassName="active" to="/products">
+                            <span id="ctl00_Header1_lblProduct">Products</span></NavLink></li>
+                        <li><NavLink activeClassName="active" to="/contact-us">
+                            <span id="ctl00_Header1_lblContactUs">Contact Us</span></NavLink></li>
                         
                     </ul>
                     {/* <!-- ul --> */}
