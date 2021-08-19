@@ -31,7 +31,8 @@ function App() {
         <Route exact path = '/about-us' component = { AboutUs } /> 
         <Route exact path = '/contact-us' component = { ContactUs } /> 
         <Route exact path = '/products' component = { Products } /> 
-        <Route exact path = '/login' component = { Login } /> 
+        <Route exact path = '/login' component = { Login } />
+        <Route exact path='/registration' component={Registration}/>
         <Route component = { Error } /> 
         </Switch> 
         { /* <BodyContent /> */ } 
