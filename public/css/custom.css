@@ -4457,3 +4457,36 @@ footer a:hover {
     height: 2px;
     transition: width .3s linear;
 }
+
+.fh5co-lead {
+    font-size: 32px;
+    line-height: 50px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin: 30px 0;
+    color: #333;
+    text-align: center;
+}
+.rating-strip {
+    background: #e5e5e5;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.valuestyle {
+    font-size: 32px;
+    font-weight: 700;
+    color: #f58634;
+    text-align: center;
+}
+.valuestyle .sp {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    width: auto;
+    width: 100%;
+    float: left;
+    line-height: 35px;
+}
+.heartarea {
+    display: inline-block;
+}

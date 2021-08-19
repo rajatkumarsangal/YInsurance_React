@@ -15,29 +15,28 @@ import Products from './EndUserComponents/Products';
 import Login from './Login/Login';
 
 function App() {
-  return (
-    <React.Fragment>
-
-      <div id="wrapper_all" style={{ display: 'block;' }}>
-        <Header></Header>
-        <NavBar></NavBar>
-        <Switch>
-          {/* <PolicyCards></PolicyCards>
-        <InstantCallback />
-        <Testimonial /> */}
-        <Route exact path='/' component={BodyContent}/>
-        <Route exact path='/about-us' component={AboutUs}/>
-        <Route exact path='/contact-us' component={ContactUs}/>
-        <Route exact path='/products' component={Products}/>
-        <Route exact path='/login' component={Login}/>
-        <Route component={Error}/>
-        </Switch>
-        {/* <BodyContent /> */}
-        <Footer></Footer>
-      </div>
-
-    </React.Fragment>
-  );
+    return ( 
+        <React.Fragment >
+        <div id = "wrapper_all" style = {{ display: 'block;' } } >
+        <Header> </Header> 
+        <NavBar> </NavBar> 
+        <Switch> {
+            /* <PolicyCards></PolicyCards>
+                    <InstantCallback />
+                    <Testimonial /> */
+        } 
+        <Route exact path = '/' component = { BodyContent } /> 
+        <Route exact path = '/about-us' component = { AboutUs } /> 
+        <Route exact path = '/contact-us' component = { ContactUs } /> 
+        <Route exact path = '/products' component = { Products } /> 
+        <Route exact path = '/login' component = { Login } /> 
+        <Route component = { Error } /> 
+        </Switch> 
+        { /* <BodyContent /> */ } 
+        <Footer> </Footer> 
+        </div>
+        </React.Fragment>
+    );
 }
 
 export default App;
