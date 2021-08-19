@@ -8,12 +8,11 @@ import RatingStrip from './RatingStrip';
 function BodyContent() {
     return (
         <React.Fragment>
-            <PolicyCards/>
-            <RatingStrip/>
-            <OurInsurancePartner/>
-            <InstantCallback/>
-            
-            <Testimonial/>
+            <PolicyCards />
+            <RatingStrip />
+            <OurInsurancePartner />
+            <InstantCallback />
+            <Testimonial />
         </React.Fragment>
     );
 
