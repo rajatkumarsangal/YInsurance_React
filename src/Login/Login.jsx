@@ -1,5 +1,6 @@
 import React from 'react';
 import './login.css';
+import {NavLink} from 'react-router-dom'
 
 function Login() {
     return (
@@ -48,7 +49,9 @@ function Login() {
                                 </div>
                                 <div className="row mb-3 px-3"> <button type="submit" className="btn btn-blue text-center">Login</button> </div>
                                 <div className="row mb-4 px-3"> <small className="font-weight-bold">Don't have an account?
-                                    <a className="text-danger ">Register</a></small>
+                                <NavLink  to="/registration">
+                            <span id="ctl00_Header1_lblContactUs">Register</span></NavLink>
+                                    </small>
                                 </div>
                             </div>
                         </div>

@@ -13,6 +13,8 @@ import AboutUs from './EndUserComponents/AboutUs';
 import ContactUs from './EndUserComponents/ContactUs';
 import Products from './EndUserComponents/Products';
 import Login from './Login/Login';
+import Registration from './Registration/Registration';
+
 
 function App() {
     return ( 
